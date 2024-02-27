@@ -1,0 +1,42 @@
+body {
+    
+        font-family: Arial, sans-serif;
+        background-image: url('download.jpg'); /* Specify the path to your background image */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#choices {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
